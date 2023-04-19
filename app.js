@@ -35,8 +35,13 @@ let questionArray = [
 let userInputs = [];
 
 for(let i=numberOfQuestion; i>=0; i--){
-    console.log(questionArray[questionCounter] + `...(${numberOfQuestion} question left)`);
+
+    console.log(questionArray[questionCounter] + `...(${numberOfQuestion} question left)`)
+
+    userInputs.push(prompt(questionArray[questionCounter] + `... (${numberOfQuestion} questions left)`));
+    
     questionCounter++;
+
     numberOfQuestion--;
 
 }
