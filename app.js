@@ -46,5 +46,10 @@ for(let i=numberOfQuestion; i>=0; i--){
 
 }
 
-let originalStory = `In ${userInputs[0]},computer pioneer ${userInputs[1]} found herself working on a ${userInputs[2]}. Word got out that the team had "debugged" the ${userInputs[2]}`
+let originalStory = `<h2>In ${userInputs[0]},computer pioneer ${userInputs[1]} found herself working on a ${userInputs[2]}. Word got out that the team had "debugged" the ${userInputs[2]}</h2>`
 console.log(originalStory);
+
+alert(
+    "All done! Ready for your totally-accurate, not-at-all confusing history of tech??"
+  );
+  document.write(originalStory);
