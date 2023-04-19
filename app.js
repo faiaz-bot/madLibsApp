@@ -35,12 +35,8 @@ let questionArray = [
 let userInputs = [];
 
 for(let i=numberOfQuestion; i>=0; i--){
-    
-
-    console.log(i);
-
+    console.log(questionArray[questionCounter]);
     questionCounter++;
-    console.log(questionCounter);
 
 }
 
