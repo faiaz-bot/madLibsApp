@@ -35,8 +35,9 @@ let questionArray = [
 let userInputs = [];
 
 for(let i=numberOfQuestion; i>=0; i--){
-    console.log(questionArray[questionCounter]);
+    console.log(questionArray[questionCounter] + `...(${numberOfQuestion} question left)`);
     questionCounter++;
+    numberOfQuestion--;
 
 }
 
